@@ -1,0 +1,278 @@
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1048..1312 -> 264-tiles track
+Track generation: 1279..1603 -> 324-tiles track
+Track generation: 1100..1384 -> 284-tiles track
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 164      |
+| time/              |          |
+|    fps             | 57       |
+|    iterations      | 1        |
+|    time_elapsed    | 35       |
+|    total_timesteps | 2048     |
+---------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1230..1550 -> 320-tiles track
+Track generation: 1229..1547 -> 318-tiles track
+Track generation: 1095..1375 -> 280-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1169..1465 -> 296-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 57.2       |
+| time/                   |            |
+|    fps                  | 60         |
+|    iterations           | 1          |
+|    time_elapsed         | 33         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.06511158 |
+|    clip_fraction        | 0.438      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.32      |
+|    explained_variance   | 0.823      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.0534     |
+|    n_updates            | 310        |
+|    policy_gradient_loss | -0.0409    |
+|    std                  | 0.731      |
+|    value_loss           | 0.927      |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1183..1483 -> 300-tiles track
+Track generation: 1148..1439 -> 291-tiles track
+Track generation: 1125..1410 -> 285-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 255        |
+| time/                   |            |
+|    fps                  | 59         |
+|    iterations           | 1          |
+|    time_elapsed         | 34         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.03918413 |
+|    clip_fraction        | 0.421      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.946      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.00781   |
+|    n_updates            | 320        |
+|    policy_gradient_loss | -0.0385    |
+|    std                  | 0.722      |
+|    value_loss           | 0.478      |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1004..1268 -> 264-tiles track
+Track generation: 1027..1288 -> 261-tiles track
+Track generation: 1259..1578 -> 319-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 278        |
+| time/                   |            |
+|    fps                  | 63         |
+|    iterations           | 1          |
+|    time_elapsed         | 32         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.08820447 |
+|    clip_fraction        | 0.428      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.25      |
+|    explained_variance   | 0.518      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.183      |
+|    n_updates            | 330        |
+|    policy_gradient_loss | -0.0433    |
+|    std                  | 0.716      |
+|    value_loss           | 1.73       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1283..1608 -> 325-tiles track
+Track generation: 1050..1316 -> 266-tiles track
+Track generation: 1178..1477 -> 299-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 392        |
+| time/                   |            |
+|    fps                  | 60         |
+|    iterations           | 1          |
+|    time_elapsed         | 33         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.08967711 |
+|    clip_fraction        | 0.467      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.24      |
+|    explained_variance   | 0.755      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.385      |
+|    n_updates            | 340        |
+|    policy_gradient_loss | -0.0268    |
+|    std                  | 0.719      |
+|    value_loss           | 3.25       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1427..1788 -> 361-tiles track
+Track generation: 1112..1396 -> 284-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1083..1358 -> 275-tiles track
+Track generation: 1168..1464 -> 296-tiles track
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 1e+03     |
+|    ep_rew_mean          | 272       |
+| time/                   |           |
+|    fps                  | 57        |
+|    iterations           | 1         |
+|    time_elapsed         | 35        |
+|    total_timesteps      | 2048      |
+| train/                  |           |
+|    approx_kl            | 0.0906093 |
+|    clip_fraction        | 0.464     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -3.24     |
+|    explained_variance   | 0.553     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 0.321     |
+|    n_updates            | 350       |
+|    policy_gradient_loss | -0.0111   |
+|    std                  | 0.718     |
+|    value_loss           | 3.58      |
+---------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 961..1209 -> 248-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1192..1494 -> 302-tiles track
+Track generation: 1079..1353 -> 274-tiles track
+Track generation: 1067..1338 -> 271-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 360         |
+| time/                   |             |
+|    fps                  | 61          |
+|    iterations           | 1           |
+|    time_elapsed         | 33          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.027876526 |
+|    clip_fraction        | 0.461       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.23       |
+|    explained_variance   | 0.793       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.311       |
+|    n_updates            | 360         |
+|    policy_gradient_loss | -0.0109     |
+|    std                  | 0.716       |
+|    value_loss           | 2.93        |
+-----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1107..1388 -> 281-tiles track
+Track generation: 1127..1413 -> 286-tiles track
+Track generation: 1129..1415 -> 286-tiles track
+
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 383         |
+| time/                   |             |
+|    fps                  | 73          |
+|    iterations           | 1           |
+|    time_elapsed         | 27          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.095613845 |
+|    clip_fraction        | 0.473       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.23       |
+|    explained_variance   | 0.843       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.812       |
+|    n_updates            | 370         |
+|    policy_gradient_loss | -0.018      |
+|    std                  | 0.716       |
+|    value_loss           | 2.72        |
+-----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1155..1447 -> 292-tiles track
+Track generation: 1114..1404 -> 290-tiles track
+Track generation: 1215..1523 -> 308-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 481        |
+| time/                   |            |
+|    fps                  | 43         |
+|    iterations           | 1          |
+|    time_elapsed         | 47         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.07585862 |
+|    clip_fraction        | 0.43       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.22      |
+|    explained_variance   | 0.799      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.751      |
+|    n_updates            | 380        |
+|    policy_gradient_loss | -0.0188    |
+|    std                  | 0.712      |
+|    value_loss           | 5.05       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1163..1458 -> 295-tiles track
+Track generation: 1082..1363 -> 281-tiles track
+Track generation: 1228..1539 -> 311-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 419         |
+| time/                   |             |
+|    fps                  | 46          |
+|    iterations           | 1           |
+|    time_elapsed         | 43          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.089773186 |
+|    clip_fraction        | 0.493       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.2        |
+|    explained_variance   | 0.791       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.52        |
+|    n_updates            | 390         |
+|    policy_gradient_loss | -0.0081     |
+|    std                  | 0.711       |
+|    value_loss           | 6.93        |
+-----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
