@@ -6,7 +6,7 @@ require(ggplot2)
 data <- read.delim2("resultats.txt", header = FALSE, sep = "\n", dec = ".")
 
 # Creem el dataframe que emplenarem
-plotData <- data.frame(1:10*10)
+plotData <- data.frame(1:10*10000)
 # Neteja les dades per extreure les recompenses
 raw_rewards <- data[str_detect(data[,1], "ep_rew_mean"),]
 
@@ -24,7 +24,7 @@ names(plotData) <- c("Posicio","Rewards", "Loss")
 p<- ggplot(plotData,aes(x=Posicio, y = Rewards)) +
   geom_line() +
   #geom_errorbar(aes(ymax=Limit*100, ymin=Limit*100), color = 'black')+
-  labs(x = "Sample", y = "Coefficient of variation") 
+  labs(x = "Steps", y = "Reward")  
 
 print(p)
 
@@ -32,7 +32,7 @@ print(p)
 q<- ggplot(plotData,aes(x=Posicio, y = Loss)) +
   geom_line() +
   #geom_errorbar(aes(ymax=Limit*100, ymin=Limit*100), color = 'black')+
-  labs(x = "Sample", y = "Coefficient of variation") 
+  labs(x = "Steps", y = "Loss") 
 
 print(q)
 
