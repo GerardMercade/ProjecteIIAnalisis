@@ -3,7 +3,7 @@
 nom_arxiu_1 <- "training1_Oscar.txt"
 
 # 2n dels agents analitzats (blau)
-nom_arxiu_2 <- "agent_500k_soufi.txt"
+nom_arxiu_2 <- "training1_v2_Oscar.txt"
 
 # Indiquem de quin arxiu volem que ens doni detalls 
 # Es mostraran, en concret, els Grafics Reward i Loss
@@ -79,12 +79,12 @@ ambMitjanes1 <- data.frame(mean,noms)
 
 # Fem grafics
 # Recompenses
-RewardPlot<- ggplot(plotData[1:250,],aes(x=Posicio, y = Rewards)) + 
+RewardPlot<- ggplot(plotData,aes(x=Posicio, y = Rewards)) + 
   geom_line() + # Marquem el tipus de grafic
   labs(x = "Steps", y = "Reward") # 
 
 # Loss
-LossPlot <- ggplot(plotData[1:250,],aes(x=Posicio, y = Loss)) +
+LossPlot <- ggplot(plotData,aes(x=Posicio, y = Loss)) +
   geom_line() +
   labs(x = "Steps", y = "Loss") 
 
