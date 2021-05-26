@@ -6375,3 +6375,2832 @@ Wrapping the env in a DummyVecEnv.
 Wrapping the env in a VecTransposeImage.
 Track generation: 1175..1473 -> 298-tiles track
 Track generation: 1228..1539 -> 311-tiles track
+Track generation: 1016..1274 -> 258-tiles track
+Track generation: 1263..1583 -> 320-tiles track
+Track generation: 1287..1613 -> 326-tiles track
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 537      |
+| time/              |          |
+|    fps             | 26       |
+|    iterations      | 1        |
+|    time_elapsed    | 76       |
+|    total_timesteps | 2048     |
+---------------------------------
+Track generation: 1140..1429 -> 289-tiles track
+Track generation: 984..1242 -> 258-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 397        |
+| time/                   |            |
+|    fps                  | 18         |
+|    iterations           | 2          |
+|    time_elapsed         | 219        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.08161968 |
+|    clip_fraction        | 0.465      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.936      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.39       |
+|    n_updates            | 2010       |
+|    policy_gradient_loss | 0.0142     |
+|    std                  | 0.719      |
+|    value_loss           | 9.94       |
+----------------------------------------
+Track generation: 1111..1393 -> 282-tiles track
+Track generation: 1035..1299 -> 264-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 396        |
+| time/                   |            |
+|    fps                  | 17         |
+|    iterations           | 3          |
+|    time_elapsed         | 356        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.07635748 |
+|    clip_fraction        | 0.458      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.944      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.733      |
+|    n_updates            | 2020       |
+|    policy_gradient_loss | 0.00464    |
+|    std                  | 0.715      |
+|    value_loss           | 10.6       |
+----------------------------------------
+Track generation: 1124..1409 -> 285-tiles track
+Track generation: 1142..1434 -> 292-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1052..1327 -> 275-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 406         |
+| time/                   |             |
+|    fps                  | 16          |
+|    iterations           | 4           |
+|    time_elapsed         | 487         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.101699695 |
+|    clip_fraction        | 0.457       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.14       |
+|    explained_variance   | 0.952       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.11        |
+|    n_updates            | 2030        |
+|    policy_gradient_loss | 0.00848     |
+|    std                  | 0.714       |
+|    value_loss           | 11.9        |
+-----------------------------------------
+Track generation: 1088..1364 -> 276-tiles track
+Track generation: 1134..1420 -> 286-tiles track
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 954       |
+|    ep_rew_mean          | 382       |
+| time/                   |           |
+|    fps                  | 17        |
+|    iterations           | 5         |
+|    time_elapsed         | 599       |
+|    total_timesteps      | 10240     |
+| train/                  |           |
+|    approx_kl            | 0.1337352 |
+|    clip_fraction        | 0.513     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -3.15     |
+|    explained_variance   | 0.93      |
+|    learning_rate        | 0.0003    |
+|    loss                 | 3.92      |
+|    n_updates            | 2040      |
+|    policy_gradient_loss | 0.0202    |
+|    std                  | 0.715     |
+|    value_loss           | 12.9      |
+---------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1051..1325 -> 274-tiles track
+Track generation: 1218..1534 -> 316-tiles track
+Track generation: 1072..1344 -> 272-tiles track
+Track generation: 1098..1385 -> 287-tiles track
+Track generation: 1046..1317 -> 271-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 73.9       |
+| time/                   |            |
+|    fps                  | 48         |
+|    iterations           | 1          |
+|    time_elapsed         | 42         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.23333478 |
+|    clip_fraction        | 0.554      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.15      |
+|    explained_variance   | 0.951      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 2.34       |
+|    n_updates            | 2050       |
+|    policy_gradient_loss | 0.0177     |
+|    std                  | 0.712      |
+|    value_loss           | 11.8       |
+----------------------------------------
+Track generation: 1051..1316 -> 265-tiles track
+Track generation: 1173..1471 -> 298-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 206         |
+| time/                   |             |
+|    fps                  | 28          |
+|    iterations           | 2           |
+|    time_elapsed         | 145         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.044490755 |
+|    clip_fraction        | 0.433       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.15       |
+|    explained_variance   | 0.895       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.16        |
+|    n_updates            | 2060        |
+|    policy_gradient_loss | 0.00995     |
+|    std                  | 0.713       |
+|    value_loss           | 6.1         |
+-----------------------------------------
+Track generation: 1285..1610 -> 325-tiles track
+Track generation: 1162..1466 -> 304-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 237         |
+| time/                   |             |
+|    fps                  | 22          |
+|    iterations           | 3           |
+|    time_elapsed         | 268         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.074216664 |
+|    clip_fraction        | 0.48        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.871       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.31        |
+|    n_updates            | 2070        |
+|    policy_gradient_loss | 0.015       |
+|    std                  | 0.722       |
+|    value_loss           | 10.2        |
+-----------------------------------------
+Track generation: 1171..1468 -> 297-tiles track
+Track generation: 1211..1517 -> 306-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 972         |
+|    ep_rew_mean          | 191         |
+| time/                   |             |
+|    fps                  | 21          |
+|    iterations           | 4           |
+|    time_elapsed         | 376         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.043957673 |
+|    clip_fraction        | 0.455       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.18       |
+|    explained_variance   | 0.903       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.13        |
+|    n_updates            | 2080        |
+|    policy_gradient_loss | 0.0183      |
+|    std                  | 0.72        |
+|    value_loss           | 6.86        |
+-----------------------------------------
+Track generation: 1124..1409 -> 285-tiles track
+Track generation: 1243..1558 -> 315-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 978        |
+|    ep_rew_mean          | 219        |
+| time/                   |            |
+|    fps                  | 20         |
+|    iterations           | 5          |
+|    time_elapsed         | 505        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.10898503 |
+|    clip_fraction        | 0.45       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.953      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.54       |
+|    n_updates            | 2090       |
+|    policy_gradient_loss | 0.00242    |
+|    std                  | 0.716      |
+|    value_loss           | 6.6        |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1092..1372 -> 280-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1206..1512 -> 306-tiles track
+Track generation: 1275..1598 -> 323-tiles track
+Track generation: 1132..1419 -> 287-tiles track
+Track generation: 1035..1298 -> 263-tiles track
+Track generation: 1278..1602 -> 324-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 650         |
+| time/                   |             |
+|    fps                  | 43          |
+|    iterations           | 1           |
+|    time_elapsed         | 47          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.058481287 |
+|    clip_fraction        | 0.443       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.916       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.2         |
+|    n_updates            | 2100        |
+|    policy_gradient_loss | 0.00924     |
+|    std                  | 0.716       |
+|    value_loss           | 6.64        |
+-----------------------------------------
+Track generation: 1128..1414 -> 286-tiles track
+Track generation: 1336..1674 -> 338-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 538         |
+| time/                   |             |
+|    fps                  | 25          |
+|    iterations           | 2           |
+|    time_elapsed         | 157         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.079630196 |
+|    clip_fraction        | 0.446       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.817       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.55        |
+|    n_updates            | 2110        |
+|    policy_gradient_loss | 0.0237      |
+|    std                  | 0.72        |
+|    value_loss           | 17.8        |
+-----------------------------------------
+Track generation: 1183..1483 -> 300-tiles track
+Track generation: 1071..1343 -> 272-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 480        |
+| time/                   |            |
+|    fps                  | 17         |
+|    iterations           | 3          |
+|    time_elapsed         | 361        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.04931894 |
+|    clip_fraction        | 0.435      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.18      |
+|    explained_variance   | 0.932      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.19       |
+|    n_updates            | 2120       |
+|    policy_gradient_loss | 0.0055     |
+|    std                  | 0.722      |
+|    value_loss           | 7.15       |
+----------------------------------------
+Track generation: 1184..1484 -> 300-tiles track
+Track generation: 1171..1468 -> 297-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 491        |
+| time/                   |            |
+|    fps                  | 18         |
+|    iterations           | 4          |
+|    time_elapsed         | 445        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.08191621 |
+|    clip_fraction        | 0.42       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.17      |
+|    explained_variance   | 0.907      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.716      |
+|    n_updates            | 2130       |
+|    policy_gradient_loss | 0.000955   |
+|    std                  | 0.716      |
+|    value_loss           | 6.83       |
+----------------------------------------
+Track generation: 1076..1349 -> 273-tiles track
+Track generation: 1124..1416 -> 292-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 502        |
+| time/                   |            |
+|    fps                  | 19         |
+|    iterations           | 5          |
+|    time_elapsed         | 517        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.09830513 |
+|    clip_fraction        | 0.448      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.774      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.49       |
+|    n_updates            | 2140       |
+|    policy_gradient_loss | 0.0217     |
+|    std                  | 0.717      |
+|    value_loss           | 13.6       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 953..1200 -> 247-tiles track
+Track generation: 1127..1413 -> 286-tiles track
+Track generation: 1168..1464 -> 296-tiles track
+Track generation: 922..1165 -> 243-tiles track
+Track generation: 1131..1425 -> 294-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 261        |
+| time/                   |            |
+|    fps                  | 76         |
+|    iterations           | 1          |
+|    time_elapsed         | 26         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.07594004 |
+|    clip_fraction        | 0.449      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.17      |
+|    explained_variance   | 0.865      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.94       |
+|    n_updates            | 2150       |
+|    policy_gradient_loss | 0.0183     |
+|    std                  | 0.718      |
+|    value_loss           | 16.4       |
+----------------------------------------
+Track generation: 1304..1634 -> 330-tiles track
+Track generation: 1183..1483 -> 300-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 432        |
+| time/                   |            |
+|    fps                  | 40         |
+|    iterations           | 2          |
+|    time_elapsed         | 100        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.07606051 |
+|    clip_fraction        | 0.456      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.17      |
+|    explained_variance   | 0.875      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.961      |
+|    n_updates            | 2160       |
+|    policy_gradient_loss | 0.00905    |
+|    std                  | 0.72       |
+|    value_loss           | 11.9       |
+----------------------------------------
+Track generation: 1097..1375 -> 278-tiles track
+Track generation: 1151..1443 -> 292-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 444         |
+| time/                   |             |
+|    fps                  | 35          |
+|    iterations           | 3           |
+|    time_elapsed         | 175         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.088333994 |
+|    clip_fraction        | 0.472       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.19       |
+|    explained_variance   | 0.832       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.26        |
+|    n_updates            | 2170        |
+|    policy_gradient_loss | 0.0191      |
+|    std                  | 0.725       |
+|    value_loss           | 16.2        |
+-----------------------------------------
+Track generation: 1054..1325 -> 271-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1196..1499 -> 303-tiles track
+Track generation: 1115..1398 -> 283-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 430        |
+| time/                   |            |
+|    fps                  | 33         |
+|    iterations           | 4          |
+|    time_elapsed         | 245        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.08152967 |
+|    clip_fraction        | 0.426      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.2       |
+|    explained_variance   | 0.884      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.12       |
+|    n_updates            | 2180       |
+|    policy_gradient_loss | 0.00181    |
+|    std                  | 0.723      |
+|    value_loss           | 10.8       |
+----------------------------------------
+Track generation: 1260..1579 -> 319-tiles track
+Track generation: 1117..1400 -> 283-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 426        |
+| time/                   |            |
+|    fps                  | 31         |
+|    iterations           | 5          |
+|    time_elapsed         | 326        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07462312 |
+|    clip_fraction        | 0.445      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.19      |
+|    explained_variance   | 0.945      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.54       |
+|    n_updates            | 2190       |
+|    policy_gradient_loss | 0.00194    |
+|    std                  | 0.724      |
+|    value_loss           | 6.84       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1255..1573 -> 318-tiles track
+Track generation: 1076..1349 -> 273-tiles track
+Track generation: 1138..1426 -> 288-tiles track
+Track generation: 1120..1411 -> 291-tiles track
+Track generation: 1191..1493 -> 302-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 912        |
+|    ep_rew_mean          | 263        |
+| time/                   |            |
+|    fps                  | 80         |
+|    iterations           | 1          |
+|    time_elapsed         | 25         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.10233683 |
+|    clip_fraction        | 0.513      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.2       |
+|    explained_variance   | 0.933      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.1        |
+|    n_updates            | 2200       |
+|    policy_gradient_loss | 0.0143     |
+|    std                  | 0.726      |
+|    value_loss           | 8.32       |
+----------------------------------------
+Track generation: 1232..1551 -> 319-tiles track
+Track generation: 1037..1301 -> 264-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 956        |
+|    ep_rew_mean          | 263        |
+| time/                   |            |
+|    fps                  | 41         |
+|    iterations           | 2          |
+|    time_elapsed         | 97         |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.17187808 |
+|    clip_fraction        | 0.476      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.21      |
+|    explained_variance   | 0.922      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 3.75       |
+|    n_updates            | 2210       |
+|    policy_gradient_loss | 0.00907    |
+|    std                  | 0.729      |
+|    value_loss           | 12         |
+----------------------------------------
+Track generation: 1070..1342 -> 272-tiles track
+Track generation: 1126..1412 -> 286-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 971         |
+|    ep_rew_mean          | 285         |
+| time/                   |             |
+|    fps                  | 34          |
+|    iterations           | 3           |
+|    time_elapsed         | 178         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.066157326 |
+|    clip_fraction        | 0.402       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.22       |
+|    explained_variance   | 0.943       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.65        |
+|    n_updates            | 2220        |
+|    policy_gradient_loss | -0.00396    |
+|    std                  | 0.736       |
+|    value_loss           | 6.99        |
+-----------------------------------------
+Track generation: 1141..1433 -> 292-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1168..1464 -> 296-tiles track
+Track generation: 1162..1457 -> 295-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 978        |
+|    ep_rew_mean          | 291        |
+| time/                   |            |
+|    fps                  | 34         |
+|    iterations           | 4          |
+|    time_elapsed         | 240        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.11694296 |
+|    clip_fraction        | 0.531      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.25      |
+|    explained_variance   | 0.908      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.57       |
+|    n_updates            | 2230       |
+|    policy_gradient_loss | 0.0302     |
+|    std                  | 0.741      |
+|    value_loss           | 10.6       |
+----------------------------------------
+Track generation: 1081..1357 -> 276-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1169..1474 -> 305-tiles track
+Track generation: 1160..1454 -> 294-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 950        |
+|    ep_rew_mean          | 256        |
+| time/                   |            |
+|    fps                  | 33         |
+|    iterations           | 5          |
+|    time_elapsed         | 307        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.06693637 |
+|    clip_fraction        | 0.421      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.26      |
+|    explained_variance   | 0.917      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.74       |
+|    n_updates            | 2240       |
+|    policy_gradient_loss | 0.0129     |
+|    std                  | 0.74       |
+|    value_loss           | 9.19       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1237..1557 -> 320-tiles track
+Track generation: 1157..1450 -> 293-tiles track
+Track generation: 1219..1528 -> 309-tiles track
+Track generation: 1038..1308 -> 270-tiles track
+Track generation: 1179..1478 -> 299-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 373        |
+| time/                   |            |
+|    fps                  | 83         |
+|    iterations           | 1          |
+|    time_elapsed         | 24         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.16163254 |
+|    clip_fraction        | 0.448      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.24      |
+|    explained_variance   | 0.915      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.769      |
+|    n_updates            | 2250       |
+|    policy_gradient_loss | 0.00119    |
+|    std                  | 0.733      |
+|    value_loss           | 8.64       |
+----------------------------------------
+Track generation: 1221..1530 -> 309-tiles track
+Track generation: 1128..1421 -> 293-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 328         |
+| time/                   |             |
+|    fps                  | 41          |
+|    iterations           | 2           |
+|    time_elapsed         | 99          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.086641185 |
+|    clip_fraction        | 0.412       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.21       |
+|    explained_variance   | 0.931       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.89        |
+|    n_updates            | 2260        |
+|    policy_gradient_loss | -0.00548    |
+|    std                  | 0.73        |
+|    value_loss           | 6.58        |
+-----------------------------------------
+Track generation: 1154..1444 -> 290-tiles track
+Track generation: 1187..1488 -> 301-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 947         |
+|    ep_rew_mean          | 306         |
+| time/                   |             |
+|    fps                  | 34          |
+|    iterations           | 3           |
+|    time_elapsed         | 177         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.093212105 |
+|    clip_fraction        | 0.467       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.2        |
+|    explained_variance   | 0.933       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.21        |
+|    n_updates            | 2270        |
+|    policy_gradient_loss | 0.00817     |
+|    std                  | 0.728       |
+|    value_loss           | 7.11        |
+-----------------------------------------
+Track generation: 1031..1293 -> 262-tiles track
+Track generation: 1000..1261 -> 261-tiles track
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 960       |
+|    ep_rew_mean          | 317       |
+| time/                   |           |
+|    fps                  | 32        |
+|    iterations           | 4         |
+|    time_elapsed         | 252       |
+|    total_timesteps      | 8192      |
+| train/                  |           |
+|    approx_kl            | 0.2009582 |
+|    clip_fraction        | 0.513     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -3.2      |
+|    explained_variance   | 0.919     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 1.06      |
+|    n_updates            | 2280      |
+|    policy_gradient_loss | 0.00413   |
+|    std                  | 0.728     |
+|    value_loss           | 11.2      |
+---------------------------------------
+Track generation: 1208..1521 -> 313-tiles track
+Track generation: 1113..1395 -> 282-tiles track
+Track generation: 1090..1367 -> 277-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 929        |
+|    ep_rew_mean          | 275        |
+| time/                   |            |
+|    fps                  | 31         |
+|    iterations           | 5          |
+|    time_elapsed         | 327        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07279381 |
+|    clip_fraction        | 0.485      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.21      |
+|    explained_variance   | 0.874      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.922      |
+|    n_updates            | 2290       |
+|    policy_gradient_loss | 0.00419    |
+|    std                  | 0.73       |
+|    value_loss           | 7.79       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1072..1344 -> 272-tiles track
+Track generation: 1203..1508 -> 305-tiles track
+Track generation: 1123..1408 -> 285-tiles track
+Track generation: 1111..1393 -> 282-tiles track
+Track generation: 1079..1360 -> 281-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 325        |
+| time/                   |            |
+|    fps                  | 77         |
+|    iterations           | 1          |
+|    time_elapsed         | 26         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.17910418 |
+|    clip_fraction        | 0.565      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.22      |
+|    explained_variance   | 0.852      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.706      |
+|    n_updates            | 2300       |
+|    policy_gradient_loss | 0.0225     |
+|    std                  | 0.731      |
+|    value_loss           | 12.9       |
+----------------------------------------
+Track generation: 1112..1398 -> 286-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1062..1341 -> 279-tiles track
+Track generation: 1056..1324 -> 268-tiles track
+--------------------------------------
+| rollout/                |          |
+|    ep_len_mean          | 1e+03    |
+|    ep_rew_mean          | 238      |
+| time/                   |          |
+|    fps                  | 40       |
+|    iterations           | 2        |
+|    time_elapsed         | 100      |
+|    total_timesteps      | 4096     |
+| train/                  |          |
+|    approx_kl            | 0.127904 |
+|    clip_fraction        | 0.488    |
+|    clip_range           | 0.2      |
+|    entropy_loss         | -3.22    |
+|    explained_variance   | 0.87     |
+|    learning_rate        | 0.0003   |
+|    loss                 | 0.947    |
+|    n_updates            | 2310     |
+|    policy_gradient_loss | -0.00227 |
+|    std                  | 0.733    |
+|    value_loss           | 11.1     |
+--------------------------------------
+Track generation: 1051..1318 -> 267-tiles track
+Track generation: 1180..1483 -> 303-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1180..1479 -> 299-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 315        |
+| time/                   |            |
+|    fps                  | 35         |
+|    iterations           | 3          |
+|    time_elapsed         | 174        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.09201521 |
+|    clip_fraction        | 0.502      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.23      |
+|    explained_variance   | 0.862      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.916      |
+|    n_updates            | 2320       |
+|    policy_gradient_loss | 0.0463     |
+|    std                  | 0.737      |
+|    value_loss           | 7.98       |
+----------------------------------------
+Track generation: 1076..1349 -> 273-tiles track
+Track generation: 1288..1614 -> 326-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 322         |
+| time/                   |             |
+|    fps                  | 33          |
+|    iterations           | 4           |
+|    time_elapsed         | 246         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.108550556 |
+|    clip_fraction        | 0.494       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.25       |
+|    explained_variance   | 0.891       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.666       |
+|    n_updates            | 2330        |
+|    policy_gradient_loss | 0.0133      |
+|    std                  | 0.737       |
+|    value_loss           | 8.25        |
+-----------------------------------------
+Track generation: 1145..1445 -> 300-tiles track
+Track generation: 1057..1330 -> 273-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 298        |
+| time/                   |            |
+|    fps                  | 32         |
+|    iterations           | 5          |
+|    time_elapsed         | 319        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07464143 |
+|    clip_fraction        | 0.431      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.24      |
+|    explained_variance   | 0.912      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.06       |
+|    n_updates            | 2340       |
+|    policy_gradient_loss | 0.0144     |
+|    std                  | 0.735      |
+|    value_loss           | 11.6       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1119..1403 -> 284-tiles track
+Track generation: 1187..1488 -> 301-tiles track
+Track generation: 1149..1440 -> 291-tiles track
+Track generation: 1096..1374 -> 278-tiles track
+Track generation: 958..1207 -> 249-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 588        |
+| time/                   |            |
+|    fps                  | 78         |
+|    iterations           | 1          |
+|    time_elapsed         | 26         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.12403953 |
+|    clip_fraction        | 0.529      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.25      |
+|    explained_variance   | 0.838      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.819      |
+|    n_updates            | 2350       |
+|    policy_gradient_loss | 0.0114     |
+|    std                  | 0.744      |
+|    value_loss           | 11.2       |
+----------------------------------------
+Track generation: 1136..1424 -> 288-tiles track
+Track generation: 1110..1392 -> 282-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 518        |
+| time/                   |            |
+|    fps                  | 41         |
+|    iterations           | 2          |
+|    time_elapsed         | 98         |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.13756147 |
+|    clip_fraction        | 0.518      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.801      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.5        |
+|    n_updates            | 2360       |
+|    policy_gradient_loss | 0.0202     |
+|    std                  | 0.748      |
+|    value_loss           | 19.5       |
+----------------------------------------
+Track generation: 1166..1467 -> 301-tiles track
+Track generation: 1141..1430 -> 289-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 897        |
+|    ep_rew_mean          | 434        |
+| time/                   |            |
+|    fps                  | 35         |
+|    iterations           | 3          |
+|    time_elapsed         | 173        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.08687544 |
+|    clip_fraction        | 0.478      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.923      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1          |
+|    n_updates            | 2370       |
+|    policy_gradient_loss | 0.0023     |
+|    std                  | 0.744      |
+|    value_loss           | 7.89       |
+----------------------------------------
+Track generation: 1172..1469 -> 297-tiles track
+Track generation: 1191..1493 -> 302-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 923        |
+|    ep_rew_mean          | 426        |
+| time/                   |            |
+|    fps                  | 33         |
+|    iterations           | 4          |
+|    time_elapsed         | 246        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.25142816 |
+|    clip_fraction        | 0.545      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.876      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.554      |
+|    n_updates            | 2380       |
+|    policy_gradient_loss | 0.0531     |
+|    std                  | 0.748      |
+|    value_loss           | 9.02       |
+----------------------------------------
+Track generation: 1170..1467 -> 297-tiles track
+Track generation: 1144..1442 -> 298-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 927        |
+|    ep_rew_mean          | 435        |
+| time/                   |            |
+|    fps                  | 32         |
+|    iterations           | 5          |
+|    time_elapsed         | 318        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07661248 |
+|    clip_fraction        | 0.464      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.894      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.63       |
+|    n_updates            | 2390       |
+|    policy_gradient_loss | 0.0123     |
+|    std                  | 0.746      |
+|    value_loss           | 12.5       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1335..1673 -> 338-tiles track
+Track generation: 1088..1364 -> 276-tiles track
+Track generation: 1421..1780 -> 359-tiles track
+Track generation: 1187..1488 -> 301-tiles track
+Track generation: 1060..1335 -> 275-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 203        |
+| time/                   |            |
+|    fps                  | 78         |
+|    iterations           | 1          |
+|    time_elapsed         | 26         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.20409866 |
+|    clip_fraction        | 0.524      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.833      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.87       |
+|    n_updates            | 2400       |
+|    policy_gradient_loss | 0.0084     |
+|    std                  | 0.746      |
+|    value_loss           | 15.2       |
+----------------------------------------
+Track generation: 1100..1379 -> 279-tiles track
+Track generation: 1192..1494 -> 302-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 319        |
+| time/                   |            |
+|    fps                  | 40         |
+|    iterations           | 2          |
+|    time_elapsed         | 100        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.11657514 |
+|    clip_fraction        | 0.529      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.887      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.993      |
+|    n_updates            | 2410       |
+|    policy_gradient_loss | 0.0315     |
+|    std                  | 0.743      |
+|    value_loss           | 10.8       |
+----------------------------------------
+Track generation: 1113..1395 -> 282-tiles track
+Track generation: 1163..1457 -> 294-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 340        |
+| time/                   |            |
+|    fps                  | 33         |
+|    iterations           | 3          |
+|    time_elapsed         | 183        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.15319219 |
+|    clip_fraction        | 0.477      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.26      |
+|    explained_variance   | 0.888      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.955      |
+|    n_updates            | 2420       |
+|    policy_gradient_loss | 0.0345     |
+|    std                  | 0.74       |
+|    value_loss           | 11.7       |
+----------------------------------------
+Track generation: 1127..1413 -> 286-tiles track
+Track generation: 1160..1454 -> 294-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 370         |
+| time/                   |             |
+|    fps                  | 31          |
+|    iterations           | 4           |
+|    time_elapsed         | 258         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.114725105 |
+|    clip_fraction        | 0.544       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.27       |
+|    explained_variance   | 0.867       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.01        |
+|    n_updates            | 2430        |
+|    policy_gradient_loss | 0.0229      |
+|    std                  | 0.746       |
+|    value_loss           | 13.1        |
+-----------------------------------------
+Track generation: 1108..1389 -> 281-tiles track
+Track generation: 1271..1592 -> 321-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 968        |
+|    ep_rew_mean          | 383        |
+| time/                   |            |
+|    fps                  | 30         |
+|    iterations           | 5          |
+|    time_elapsed         | 331        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.09509033 |
+|    clip_fraction        | 0.513      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.866      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.27       |
+|    n_updates            | 2440       |
+|    policy_gradient_loss | 0.0073     |
+|    std                  | 0.743      |
+|    value_loss           | 15.2       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1076..1349 -> 273-tiles track
+Track generation: 1139..1428 -> 289-tiles track
+Track generation: 1178..1475 -> 297-tiles track
+Track generation: 1076..1349 -> 273-tiles track
+Track generation: 1183..1483 -> 300-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 543        |
+| time/                   |            |
+|    fps                  | 96         |
+|    iterations           | 1          |
+|    time_elapsed         | 21         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.16363424 |
+|    clip_fraction        | 0.544      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.888      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.54       |
+|    n_updates            | 2450       |
+|    policy_gradient_loss | 0.00225    |
+|    std                  | 0.745      |
+|    value_loss           | 15.1       |
+----------------------------------------
+Track generation: 1014..1272 -> 258-tiles track
+Track generation: 1124..1409 -> 285-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 498        |
+| time/                   |            |
+|    fps                  | 46         |
+|    iterations           | 2          |
+|    time_elapsed         | 88         |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.09785256 |
+|    clip_fraction        | 0.506      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.9        |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.09       |
+|    n_updates            | 2460       |
+|    policy_gradient_loss | 0.0201     |
+|    std                  | 0.743      |
+|    value_loss           | 12.8       |
+----------------------------------------
+Track generation: 1088..1366 -> 278-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1175..1476 -> 301-tiles track
+Track generation: 1022..1283 -> 261-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1284..1609 -> 325-tiles track
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 1e+03     |
+|    ep_rew_mean          | 491       |
+| time/                   |           |
+|    fps                  | 39        |
+|    iterations           | 3         |
+|    time_elapsed         | 155       |
+|    total_timesteps      | 6144      |
+| train/                  |           |
+|    approx_kl            | 0.1353629 |
+|    clip_fraction        | 0.559     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -3.27     |
+|    explained_variance   | 0.833     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 1.81      |
+|    n_updates            | 2470      |
+|    policy_gradient_loss | 0.0254    |
+|    std                  | 0.741     |
+|    value_loss           | 17.2      |
+---------------------------------------
+Track generation: 1149..1448 -> 299-tiles track
+Track generation: 1068..1339 -> 271-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 937        |
+|    ep_rew_mean          | 376        |
+| time/                   |            |
+|    fps                  | 37         |
+|    iterations           | 4          |
+|    time_elapsed         | 218        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.09920828 |
+|    clip_fraction        | 0.539      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.821      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 4.61       |
+|    n_updates            | 2480       |
+|    policy_gradient_loss | 0.0325     |
+|    std                  | 0.747      |
+|    value_loss           | 15         |
+----------------------------------------
+Track generation: 1281..1605 -> 324-tiles track
+Track generation: 1207..1513 -> 306-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 949         |
+|    ep_rew_mean          | 343         |
+| time/                   |             |
+|    fps                  | 35          |
+|    iterations           | 5           |
+|    time_elapsed         | 287         |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.078330636 |
+|    clip_fraction        | 0.404       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.3        |
+|    explained_variance   | 0.914       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.42        |
+|    n_updates            | 2490        |
+|    policy_gradient_loss | -0.0017     |
+|    std                  | 0.749       |
+|    value_loss           | 9.23        |
+-----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1060..1329 -> 269-tiles track
+Track generation: 1071..1343 -> 272-tiles track
+Track generation: 1264..1584 -> 320-tiles track
+Track generation: 1193..1502 -> 309-tiles track
+Track generation: 1178..1477 -> 299-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 162        |
+| time/                   |            |
+|    fps                  | 91         |
+|    iterations           | 1          |
+|    time_elapsed         | 22         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.07623531 |
+|    clip_fraction        | 0.447      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.29      |
+|    explained_variance   | 0.928      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.2        |
+|    n_updates            | 2500       |
+|    policy_gradient_loss | 0.00857    |
+|    std                  | 0.745      |
+|    value_loss           | 8.6        |
+----------------------------------------
+Track generation: 1181..1487 -> 306-tiles track
+Track generation: 965..1217 -> 252-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 145         |
+| time/                   |             |
+|    fps                  | 46          |
+|    iterations           | 2           |
+|    time_elapsed         | 87          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.124323696 |
+|    clip_fraction        | 0.492       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.28       |
+|    explained_variance   | 0.893       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.875       |
+|    n_updates            | 2510        |
+|    policy_gradient_loss | 0.0145      |
+|    std                  | 0.74        |
+|    value_loss           | 12          |
+-----------------------------------------
+Track generation: 1112..1397 -> 285-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1299..1628 -> 329-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 138        |
+| time/                   |            |
+|    fps                  | 40         |
+|    iterations           | 3          |
+|    time_elapsed         | 152        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.07044491 |
+|    clip_fraction        | 0.475      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.9        |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.68       |
+|    n_updates            | 2520       |
+|    policy_gradient_loss | 0.0045     |
+|    std                  | 0.743      |
+|    value_loss           | 4.92       |
+----------------------------------------
+Track generation: 1300..1629 -> 329-tiles track
+Track generation: 1009..1267 -> 258-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1068..1339 -> 271-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 182         |
+| time/                   |             |
+|    fps                  | 37          |
+|    iterations           | 4           |
+|    time_elapsed         | 216         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.036866404 |
+|    clip_fraction        | 0.447       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.27       |
+|    explained_variance   | 0.825       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.69        |
+|    n_updates            | 2530        |
+|    policy_gradient_loss | 0.00868     |
+|    std                  | 0.744       |
+|    value_loss           | 9.75        |
+-----------------------------------------
+Track generation: 1255..1573 -> 318-tiles track
+Track generation: 1210..1516 -> 306-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 177        |
+| time/                   |            |
+|    fps                  | 36         |
+|    iterations           | 5          |
+|    time_elapsed         | 278        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07693414 |
+|    clip_fraction        | 0.533      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.69       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.61       |
+|    n_updates            | 2540       |
+|    policy_gradient_loss | 0.0216     |
+|    std                  | 0.742      |
+|    value_loss           | 8.62       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1037..1304 -> 267-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1208..1514 -> 306-tiles track
+Track generation: 1233..1545 -> 312-tiles track
+Track generation: 1295..1624 -> 329-tiles track
+Track generation: 1247..1563 -> 316-tiles track
+Track generation: 1136..1424 -> 288-tiles track
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 1e+03     |
+|    ep_rew_mean          | 149       |
+| time/                   |           |
+|    fps                  | 94        |
+|    iterations           | 1         |
+|    time_elapsed         | 21        |
+|    total_timesteps      | 2048      |
+| train/                  |           |
+|    approx_kl            | 0.0682109 |
+|    clip_fraction        | 0.469     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -3.26     |
+|    explained_variance   | 0.873     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 0.488     |
+|    n_updates            | 2550      |
+|    policy_gradient_loss | 0.00714   |
+|    std                  | 0.739     |
+|    value_loss           | 4.33      |
+---------------------------------------
+Track generation: 1085..1360 -> 275-tiles track
+Track generation: 1200..1504 -> 304-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 268        |
+| time/                   |            |
+|    fps                  | 47         |
+|    iterations           | 2          |
+|    time_elapsed         | 86         |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.08342236 |
+|    clip_fraction        | 0.462      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.26      |
+|    explained_variance   | 0.923      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.467      |
+|    n_updates            | 2560       |
+|    policy_gradient_loss | 0.00445    |
+|    std                  | 0.744      |
+|    value_loss           | 5.45       |
+----------------------------------------
+Track generation: 1139..1428 -> 289-tiles track
+Track generation: 1233..1545 -> 312-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 984        |
+|    ep_rew_mean          | 275        |
+| time/                   |            |
+|    fps                  | 39         |
+|    iterations           | 3          |
+|    time_elapsed         | 153        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.07537232 |
+|    clip_fraction        | 0.458      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.28      |
+|    explained_variance   | 0.864      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.544      |
+|    n_updates            | 2570       |
+|    policy_gradient_loss | 0.00636    |
+|    std                  | 0.747      |
+|    value_loss           | 7.71       |
+----------------------------------------
+Track generation: 1122..1408 -> 286-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1093..1370 -> 277-tiles track
+Track generation: 1079..1361 -> 282-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 988        |
+|    ep_rew_mean          | 301        |
+| time/                   |            |
+|    fps                  | 37         |
+|    iterations           | 4          |
+|    time_elapsed         | 217        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.27166784 |
+|    clip_fraction        | 0.523      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.913      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.07       |
+|    n_updates            | 2580       |
+|    policy_gradient_loss | 0.0149     |
+|    std                  | 0.747      |
+|    value_loss           | 9.28       |
+----------------------------------------
+Track generation: 1216..1524 -> 308-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 990         |
+|    ep_rew_mean          | 267         |
+| time/                   |             |
+|    fps                  | 36          |
+|    iterations           | 5           |
+|    time_elapsed         | 279         |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.045987703 |
+|    clip_fraction        | 0.44        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.27       |
+|    explained_variance   | 0.91        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.893       |
+|    n_updates            | 2590        |
+|    policy_gradient_loss | -0.00269    |
+|    std                  | 0.746       |
+|    value_loss           | 7.03        |
+-----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1104..1384 -> 280-tiles track
+Track generation: 1026..1290 -> 264-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1152..1444 -> 292-tiles track
+Track generation: 1304..1634 -> 330-tiles track
+Track generation: 1224..1534 -> 310-tiles track
+Track generation: 1191..1499 -> 308-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 249         |
+| time/                   |             |
+|    fps                  | 58          |
+|    iterations           | 1           |
+|    time_elapsed         | 35          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.052801695 |
+|    clip_fraction        | 0.411       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.27       |
+|    explained_variance   | 0.945       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.363       |
+|    n_updates            | 2600        |
+|    policy_gradient_loss | 0.0036      |
+|    std                  | 0.749       |
+|    value_loss           | 2.35        |
+-----------------------------------------
+Track generation: 1253..1570 -> 317-tiles track
+Track generation: 1420..1779 -> 359-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 164         |
+| time/                   |             |
+|    fps                  | 32          |
+|    iterations           | 2           |
+|    time_elapsed         | 125         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.037884414 |
+|    clip_fraction        | 0.404       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.27       |
+|    explained_variance   | 0.782       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.4         |
+|    n_updates            | 2610        |
+|    policy_gradient_loss | 0.0123      |
+|    std                  | 0.751       |
+|    value_loss           | 12.6        |
+-----------------------------------------
+Track generation: 1183..1483 -> 300-tiles track
+Track generation: 1147..1446 -> 299-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 104        |
+| time/                   |            |
+|    fps                  | 27         |
+|    iterations           | 3          |
+|    time_elapsed         | 222        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.07694844 |
+|    clip_fraction        | 0.454      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.3       |
+|    explained_variance   | 0.959      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.289      |
+|    n_updates            | 2620       |
+|    policy_gradient_loss | -0.00405   |
+|    std                  | 0.755      |
+|    value_loss           | 3.7        |
+----------------------------------------
+Track generation: 1244..1559 -> 315-tiles track
+Track generation: 1174..1472 -> 298-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1175..1473 -> 298-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 91.1        |
+| time/                   |             |
+|    fps                  | 26          |
+|    iterations           | 4           |
+|    time_elapsed         | 308         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.095222294 |
+|    clip_fraction        | 0.52        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.29       |
+|    explained_variance   | 0.921       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.209       |
+|    n_updates            | 2630        |
+|    policy_gradient_loss | -0.00644    |
+|    std                  | 0.75        |
+|    value_loss           | 1.97        |
+-----------------------------------------
+Track generation: 1179..1478 -> 299-tiles track
+Track generation: 1092..1369 -> 277-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 78.1       |
+| time/                   |            |
+|    fps                  | 25         |
+|    iterations           | 5          |
+|    time_elapsed         | 404        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.10892123 |
+|    clip_fraction        | 0.48       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.89       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.426      |
+|    n_updates            | 2640       |
+|    policy_gradient_loss | 0.00653    |
+|    std                  | 0.749      |
+|    value_loss           | 4.69       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1239..1553 -> 314-tiles track
+Track generation: 1304..1634 -> 330-tiles track
+Track generation: 1127..1413 -> 286-tiles track
+Track generation: 1035..1298 -> 263-tiles track
+Track generation: 1017..1282 -> 265-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 22.3        |
+| time/                   |             |
+|    fps                  | 63          |
+|    iterations           | 1           |
+|    time_elapsed         | 32          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.032019693 |
+|    clip_fraction        | 0.374       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.27       |
+|    explained_variance   | 0.79        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.323       |
+|    n_updates            | 2650        |
+|    policy_gradient_loss | 0.0007      |
+|    std                  | 0.751       |
+|    value_loss           | 3.05        |
+-----------------------------------------
+Track generation: 1247..1563 -> 316-tiles track
+Track generation: 1299..1628 -> 329-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 44.6       |
+| time/                   |            |
+|    fps                  | 34         |
+|    iterations           | 2          |
+|    time_elapsed         | 120        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.05985087 |
+|    clip_fraction        | 0.384      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.27      |
+|    explained_variance   | 0.928      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.3        |
+|    n_updates            | 2660       |
+|    policy_gradient_loss | -0.0118    |
+|    std                  | 0.744      |
+|    value_loss           | 1.38       |
+----------------------------------------
+Track generation: 1118..1403 -> 285-tiles track
+Track generation: 1163..1460 -> 297-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1272..1594 -> 322-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 47.1        |
+| time/                   |             |
+|    fps                  | 29          |
+|    iterations           | 3           |
+|    time_elapsed         | 210         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.083601974 |
+|    clip_fraction        | 0.427       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.26       |
+|    explained_variance   | 0.794       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.308       |
+|    n_updates            | 2670        |
+|    policy_gradient_loss | 0.00268     |
+|    std                  | 0.746       |
+|    value_loss           | 3.74        |
+-----------------------------------------
+Track generation: 1009..1273 -> 264-tiles track
+Track generation: 1112..1394 -> 282-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 994         |
+|    ep_rew_mean          | 46.6        |
+| time/                   |             |
+|    fps                  | 27          |
+|    iterations           | 4           |
+|    time_elapsed         | 298         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.041179314 |
+|    clip_fraction        | 0.426       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.25       |
+|    explained_variance   | 0.868       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.121       |
+|    n_updates            | 2680        |
+|    policy_gradient_loss | -0.00602    |
+|    std                  | 0.74        |
+|    value_loss           | 1.99        |
+-----------------------------------------
+Track generation: 1219..1528 -> 309-tiles track
+Track generation: 1249..1565 -> 316-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 996        |
+|    ep_rew_mean          | 49.3       |
+| time/                   |            |
+|    fps                  | 26         |
+|    iterations           | 5          |
+|    time_elapsed         | 385        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.16057357 |
+|    clip_fraction        | 0.492      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.24      |
+|    explained_variance   | 0.707      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.556      |
+|    n_updates            | 2690       |
+|    policy_gradient_loss | 0.0184     |
+|    std                  | 0.74       |
+|    value_loss           | 7.72       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1191..1493 -> 302-tiles track
+Track generation: 1247..1563 -> 316-tiles track
+Track generation: 1215..1523 -> 308-tiles track
+Track generation: 1079..1353 -> 274-tiles track
+Track generation: 1205..1510 -> 305-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 165         |
+| time/                   |             |
+|    fps                  | 62          |
+|    iterations           | 1           |
+|    time_elapsed         | 32          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.059724044 |
+|    clip_fraction        | 0.416       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.23       |
+|    explained_variance   | 0.91        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.192       |
+|    n_updates            | 2700        |
+|    policy_gradient_loss | -0.00527    |
+|    std                  | 0.734       |
+|    value_loss           | 2.38        |
+-----------------------------------------
+Track generation: 1066..1342 -> 276-tiles track
+Track generation: 1135..1423 -> 288-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 109        |
+| time/                   |            |
+|    fps                  | 32         |
+|    iterations           | 2          |
+|    time_elapsed         | 125        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.07707645 |
+|    clip_fraction        | 0.463      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.2       |
+|    explained_variance   | 0.862      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.422      |
+|    n_updates            | 2710       |
+|    policy_gradient_loss | 0.000703   |
+|    std                  | 0.725      |
+|    value_loss           | 2.92       |
+----------------------------------------
+Track generation: 1146..1435 -> 289-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1103..1388 -> 285-tiles track
+Track generation: 994..1253 -> 259-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 80.2        |
+| time/                   |             |
+|    fps                  | 28          |
+|    iterations           | 3           |
+|    time_elapsed         | 216         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.037593305 |
+|    clip_fraction        | 0.325       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.17       |
+|    explained_variance   | 0.954       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.233       |
+|    n_updates            | 2720        |
+|    policy_gradient_loss | -0.0115     |
+|    std                  | 0.72        |
+|    value_loss           | 1.3         |
+-----------------------------------------
+Track generation: 1141..1439 -> 298-tiles track
+Track generation: 1104..1384 -> 280-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 86         |
+| time/                   |            |
+|    fps                  | 27         |
+|    iterations           | 4          |
+|    time_elapsed         | 299        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.04968749 |
+|    clip_fraction        | 0.359      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.17      |
+|    explained_variance   | 0.903      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.386      |
+|    n_updates            | 2730       |
+|    policy_gradient_loss | -0.00673   |
+|    std                  | 0.719      |
+|    value_loss           | 1.88       |
+----------------------------------------
+Track generation: 1147..1438 -> 291-tiles track
+Track generation: 1175..1477 -> 302-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 83.9       |
+| time/                   |            |
+|    fps                  | 26         |
+|    iterations           | 5          |
+|    time_elapsed         | 389        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.06852479 |
+|    clip_fraction        | 0.415      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.921      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.225      |
+|    n_updates            | 2740       |
+|    policy_gradient_loss | -0.00984   |
+|    std                  | 0.717      |
+|    value_loss           | 1.67       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1150..1442 -> 292-tiles track
+Track generation: 1068..1347 -> 279-tiles track
+Track generation: 1106..1384 -> 278-tiles track
+Track generation: 1146..1440 -> 294-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1302..1632 -> 330-tiles track
+Track generation: 1372..1719 -> 347-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 60.2        |
+| time/                   |             |
+|    fps                  | 72          |
+|    iterations           | 1           |
+|    time_elapsed         | 28          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.037071224 |
+|    clip_fraction        | 0.352       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.95        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.138       |
+|    n_updates            | 2750        |
+|    policy_gradient_loss | -0.00397    |
+|    std                  | 0.718       |
+|    value_loss           | 1.48        |
+-----------------------------------------
+Track generation: 1297..1625 -> 328-tiles track
+Track generation: 1091..1372 -> 281-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 165         |
+| time/                   |             |
+|    fps                  | 38          |
+|    iterations           | 2           |
+|    time_elapsed         | 106         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.049396574 |
+|    clip_fraction        | 0.337       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.963       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.304       |
+|    n_updates            | 2760        |
+|    policy_gradient_loss | -0.0102     |
+|    std                  | 0.717       |
+|    value_loss           | 1.64        |
+-----------------------------------------
+Track generation: 1106..1386 -> 280-tiles track
+Track generation: 1143..1433 -> 290-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 177        |
+| time/                   |            |
+|    fps                  | 32         |
+|    iterations           | 3          |
+|    time_elapsed         | 191        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.03857694 |
+|    clip_fraction        | 0.438      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.15      |
+|    explained_variance   | 0.911      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.398      |
+|    n_updates            | 2770       |
+|    policy_gradient_loss | 0.00415    |
+|    std                  | 0.709      |
+|    value_loss           | 3.49       |
+----------------------------------------
+Track generation: 1137..1432 -> 295-tiles track
+Track generation: 1207..1511 -> 304-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 153        |
+| time/                   |            |
+|    fps                  | 30         |
+|    iterations           | 4          |
+|    time_elapsed         | 269        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.05541406 |
+|    clip_fraction        | 0.433      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.13      |
+|    explained_variance   | 0.87       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.431      |
+|    n_updates            | 2780       |
+|    policy_gradient_loss | 0.00473    |
+|    std                  | 0.708      |
+|    value_loss           | 4.08       |
+----------------------------------------
+Track generation: 1119..1411 -> 292-tiles track
+Track generation: 1144..1434 -> 290-tiles track
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 931       |
+|    ep_rew_mean          | 150       |
+| time/                   |           |
+|    fps                  | 29        |
+|    iterations           | 5         |
+|    time_elapsed         | 344       |
+|    total_timesteps      | 10240     |
+| train/                  |           |
+|    approx_kl            | 0.0682171 |
+|    clip_fraction        | 0.417     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -3.12     |
+|    explained_variance   | 0.919     |
+|    learning_rate        | 0.0003    |
+|    loss                 | 0.379     |
+|    n_updates            | 2790      |
+|    policy_gradient_loss | 0.0077    |
+|    std                  | 0.709     |
+|    value_loss           | 3.92      |
+---------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1186..1487 -> 301-tiles track
+Track generation: 1138..1435 -> 297-tiles track
+Track generation: 1082..1357 -> 275-tiles track
+Track generation: 1122..1412 -> 290-tiles track
+Track generation: 1185..1485 -> 300-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 74.9       |
+| time/                   |            |
+|    fps                  | 79         |
+|    iterations           | 1          |
+|    time_elapsed         | 25         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.29172003 |
+|    clip_fraction        | 0.443      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.13      |
+|    explained_variance   | 0.9        |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.191      |
+|    n_updates            | 2800       |
+|    policy_gradient_loss | -0.0047    |
+|    std                  | 0.714      |
+|    value_loss           | 4.51       |
+----------------------------------------
+Track generation: 1254..1572 -> 318-tiles track
+Track generation: 1176..1474 -> 298-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 219         |
+| time/                   |             |
+|    fps                  | 40          |
+|    iterations           | 2           |
+|    time_elapsed         | 99          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.034670383 |
+|    clip_fraction        | 0.356       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.14       |
+|    explained_variance   | 0.95        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0538      |
+|    n_updates            | 2810        |
+|    policy_gradient_loss | -0.00111    |
+|    std                  | 0.712       |
+|    value_loss           | 1.68        |
+-----------------------------------------
+Track generation: 1283..1608 -> 325-tiles track
+Track generation: 1060..1329 -> 269-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 241         |
+| time/                   |             |
+|    fps                  | 35          |
+|    iterations           | 3           |
+|    time_elapsed         | 174         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.086383864 |
+|    clip_fraction        | 0.496       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.12       |
+|    explained_variance   | 0.906       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.546       |
+|    n_updates            | 2820        |
+|    policy_gradient_loss | 0.00346     |
+|    std                  | 0.706       |
+|    value_loss           | 6.81        |
+-----------------------------------------
+Track generation: 1144..1434 -> 290-tiles track
+Track generation: 1180..1479 -> 299-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 904         |
+|    ep_rew_mean          | 213         |
+| time/                   |             |
+|    fps                  | 29          |
+|    iterations           | 4           |
+|    time_elapsed         | 273         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.048152413 |
+|    clip_fraction        | 0.394       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.11       |
+|    explained_variance   | 0.963       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.39        |
+|    n_updates            | 2830        |
+|    policy_gradient_loss | 0.00531     |
+|    std                  | 0.71        |
+|    value_loss           | 4.16        |
+-----------------------------------------
+Track generation: 1084..1359 -> 275-tiles track
+Track generation: 1112..1394 -> 282-tiles track
+Track generation: 1024..1293 -> 269-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 930        |
+|    ep_rew_mean          | 264        |
+| time/                   |            |
+|    fps                  | 26         |
+|    iterations           | 5          |
+|    time_elapsed         | 382        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.17927887 |
+|    clip_fraction        | 0.49       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.12      |
+|    explained_variance   | 0.93       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.967      |
+|    n_updates            | 2840       |
+|    policy_gradient_loss | 0.000735   |
+|    std                  | 0.706      |
+|    value_loss           | 7.21       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1150..1442 -> 292-tiles track
+Track generation: 1062..1332 -> 270-tiles track
+Track generation: 1151..1443 -> 292-tiles track
+Track generation: 1190..1510 -> 320-tiles track
+Track generation: 1320..1654 -> 334-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 91.6       |
+| time/                   |            |
+|    fps                  | 69         |
+|    iterations           | 1          |
+|    time_elapsed         | 29         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.06423706 |
+|    clip_fraction        | 0.375      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.11      |
+|    explained_variance   | 0.964      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.693      |
+|    n_updates            | 2850       |
+|    policy_gradient_loss | 0.00831    |
+|    std                  | 0.705      |
+|    value_loss           | 6.4        |
+----------------------------------------
+Track generation: 1111..1393 -> 282-tiles track
+Track generation: 1101..1380 -> 279-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 78.2       |
+| time/                   |            |
+|    fps                  | 37         |
+|    iterations           | 2          |
+|    time_elapsed         | 109        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.07712804 |
+|    clip_fraction        | 0.39       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.1       |
+|    explained_variance   | 0.962      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.107      |
+|    n_updates            | 2860       |
+|    policy_gradient_loss | -0.00555   |
+|    std                  | 0.702      |
+|    value_loss           | 2.74       |
+----------------------------------------
+Track generation: 1173..1470 -> 297-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 124         |
+| time/                   |             |
+|    fps                  | 30          |
+|    iterations           | 3           |
+|    time_elapsed         | 201         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.050809473 |
+|    clip_fraction        | 0.442       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.11       |
+|    explained_variance   | 0.941       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.245       |
+|    n_updates            | 2870        |
+|    policy_gradient_loss | 0.000516    |
+|    std                  | 0.708       |
+|    value_loss           | 4.36        |
+-----------------------------------------
+Track generation: 1166..1460 -> 294-tiles track
+Track generation: 1176..1474 -> 298-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 125        |
+| time/                   |            |
+|    fps                  | 26         |
+|    iterations           | 4          |
+|    time_elapsed         | 306        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.04839899 |
+|    clip_fraction        | 0.399      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.12      |
+|    explained_variance   | 0.945      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.875      |
+|    n_updates            | 2880       |
+|    policy_gradient_loss | -0.00349   |
+|    std                  | 0.705      |
+|    value_loss           | 5.21       |
+----------------------------------------
+Track generation: 1050..1322 -> 272-tiles track
+Track generation: 1055..1323 -> 268-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 934        |
+|    ep_rew_mean          | 114        |
+| time/                   |            |
+|    fps                  | 24         |
+|    iterations           | 5          |
+|    time_elapsed         | 418        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07801774 |
+|    clip_fraction        | 0.416      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.12      |
+|    explained_variance   | 0.967      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.352      |
+|    n_updates            | 2890       |
+|    policy_gradient_loss | 0.00291    |
+|    std                  | 0.71       |
+|    value_loss           | 3.89       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1183..1483 -> 300-tiles track
+Track generation: 975..1223 -> 248-tiles track
+Track generation: 1350..1692 -> 342-tiles track
+Track generation: 1196..1499 -> 303-tiles track
+Track generation: 1124..1409 -> 285-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 844        |
+|    ep_rew_mean          | 249        |
+| time/                   |            |
+|    fps                  | 57         |
+|    iterations           | 1          |
+|    time_elapsed         | 35         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.39734122 |
+|    clip_fraction        | 0.542      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.13      |
+|    explained_variance   | 0.926      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.18       |
+|    n_updates            | 2900       |
+|    policy_gradient_loss | 0.0214     |
+|    std                  | 0.712      |
+|    value_loss           | 7.64       |
+----------------------------------------
+Track generation: 1124..1409 -> 285-tiles track
+Track generation: 1261..1580 -> 319-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 922        |
+|    ep_rew_mean          | 216        |
+| time/                   |            |
+|    fps                  | 32         |
+|    iterations           | 2          |
+|    time_elapsed         | 126        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.18964727 |
+|    clip_fraction        | 0.429      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.13      |
+|    explained_variance   | 0.936      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.856      |
+|    n_updates            | 2910       |
+|    policy_gradient_loss | 0.00505    |
+|    std                  | 0.709      |
+|    value_loss           | 10         |
+----------------------------------------
+Track generation: 1188..1489 -> 301-tiles track
+Track generation: 1228..1495 -> 267-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1079..1353 -> 274-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 948         |
+|    ep_rew_mean          | 189         |
+| time/                   |             |
+|    fps                  | 28          |
+|    iterations           | 3           |
+|    time_elapsed         | 218         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.077147014 |
+|    clip_fraction        | 0.423       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.14       |
+|    explained_variance   | 0.957       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.565       |
+|    n_updates            | 2920        |
+|    policy_gradient_loss | 0.00684     |
+|    std                  | 0.716       |
+|    value_loss           | 4.62        |
+-----------------------------------------
+Track generation: 1082..1363 -> 281-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 961        |
+|    ep_rew_mean          | 144        |
+| time/                   |            |
+|    fps                  | 26         |
+|    iterations           | 4          |
+|    time_elapsed         | 311        |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.05294995 |
+|    clip_fraction        | 0.478      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.16      |
+|    explained_variance   | 0.885      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.597      |
+|    n_updates            | 2930       |
+|    policy_gradient_loss | 0.022      |
+|    std                  | 0.721      |
+|    value_loss           | 6.3        |
+----------------------------------------
+Track generation: 1108..1389 -> 281-tiles track
+Track generation: 1059..1330 -> 271-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 969        |
+|    ep_rew_mean          | 116        |
+| time/                   |            |
+|    fps                  | 24         |
+|    iterations           | 5          |
+|    time_elapsed         | 414        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.08141652 |
+|    clip_fraction        | 0.377      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.18      |
+|    explained_variance   | 0.952      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.178      |
+|    n_updates            | 2940       |
+|    policy_gradient_loss | -0.018     |
+|    std                  | 0.718      |
+|    value_loss           | 1.69       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1311..1643 -> 332-tiles track
+Track generation: 1221..1539 -> 318-tiles track
+Track generation: 969..1224 -> 255-tiles track
+Track generation: 1064..1333 -> 269-tiles track
+Track generation: 1040..1304 -> 264-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 84.6       |
+| time/                   |            |
+|    fps                  | 63         |
+|    iterations           | 1          |
+|    time_elapsed         | 32         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.07871835 |
+|    clip_fraction        | 0.387      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.17      |
+|    explained_variance   | 0.936      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.175      |
+|    n_updates            | 2950       |
+|    policy_gradient_loss | -0.00555   |
+|    std                  | 0.718      |
+|    value_loss           | 3.32       |
+----------------------------------------
+Track generation: 1186..1487 -> 301-tiles track
+Track generation: 1232..1544 -> 312-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 38.4       |
+| time/                   |            |
+|    fps                  | 31         |
+|    iterations           | 2          |
+|    time_elapsed         | 131        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.07201371 |
+|    clip_fraction        | 0.46       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.17      |
+|    explained_variance   | 0.924      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.412      |
+|    n_updates            | 2960       |
+|    policy_gradient_loss | 0.00042    |
+|    std                  | 0.722      |
+|    value_loss           | 2.54       |
+----------------------------------------
+Track generation: 1248..1564 -> 316-tiles track
+Track generation: 1167..1463 -> 296-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 93.6        |
+| time/                   |             |
+|    fps                  | 24          |
+|    iterations           | 3           |
+|    time_elapsed         | 251         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.041536294 |
+|    clip_fraction        | 0.291       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.18       |
+|    explained_variance   | 0.965       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.154       |
+|    n_updates            | 2970        |
+|    policy_gradient_loss | -0.00939    |
+|    std                  | 0.721       |
+|    value_loss           | 1.2         |
+-----------------------------------------
+Track generation: 1150..1441 -> 291-tiles track
+Track generation: 1136..1424 -> 288-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 141         |
+| time/                   |             |
+|    fps                  | 23          |
+|    iterations           | 4           |
+|    time_elapsed         | 349         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.051593736 |
+|    clip_fraction        | 0.346       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.95        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.258       |
+|    n_updates            | 2980        |
+|    policy_gradient_loss | 0.00872     |
+|    std                  | 0.712       |
+|    value_loss           | 3.59        |
+-----------------------------------------
+Track generation: 1100..1379 -> 279-tiles track
+Track generation: 1207..1513 -> 306-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 167        |
+| time/                   |            |
+|    fps                  | 23         |
+|    iterations           | 5          |
+|    time_elapsed         | 441        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.08258523 |
+|    clip_fraction        | 0.458      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.14      |
+|    explained_variance   | 0.935      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.68       |
+|    n_updates            | 2990       |
+|    policy_gradient_loss | 0.00112    |
+|    std                  | 0.713      |
+|    value_loss           | 4.77       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1191..1493 -> 302-tiles track
+Track generation: 1072..1344 -> 272-tiles track
+Track generation: 1045..1310 -> 265-tiles track
+Track generation: 1223..1533 -> 310-tiles track
+Track generation: 1129..1417 -> 288-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1166..1462 -> 296-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 361        |
+| time/                   |            |
+|    fps                  | 39         |
+|    iterations           | 1          |
+|    time_elapsed         | 52         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.10587883 |
+|    clip_fraction        | 0.515      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.14      |
+|    explained_variance   | 0.93       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.615      |
+|    n_updates            | 3000       |
+|    policy_gradient_loss | 0.00923    |
+|    std                  | 0.713      |
+|    value_loss           | 5.27       |
+----------------------------------------
+Track generation: 1172..1469 -> 297-tiles track
+Track generation: 1092..1369 -> 277-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 313         |
+| time/                   |             |
+|    fps                  | 27          |
+|    iterations           | 2           |
+|    time_elapsed         | 148         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.057805303 |
+|    clip_fraction        | 0.39        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.14       |
+|    explained_variance   | 0.936       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.35        |
+|    n_updates            | 3010        |
+|    policy_gradient_loss | 0.0118      |
+|    std                  | 0.712       |
+|    value_loss           | 8.48        |
+-----------------------------------------
+Track generation: 1195..1498 -> 303-tiles track
+Track generation: 1187..1488 -> 301-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 326         |
+| time/                   |             |
+|    fps                  | 23          |
+|    iterations           | 3           |
+|    time_elapsed         | 261         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.062177654 |
+|    clip_fraction        | 0.393       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.14       |
+|    explained_variance   | 0.969       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.947       |
+|    n_updates            | 3020        |
+|    policy_gradient_loss | -0.0109     |
+|    std                  | 0.71        |
+|    value_loss           | 5.43        |
+-----------------------------------------
+Track generation: 1282..1607 -> 325-tiles track
+Track generation: 1029..1294 -> 265-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 356         |
+| time/                   |             |
+|    fps                  | 24          |
+|    iterations           | 4           |
+|    time_elapsed         | 337         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.020416182 |
+|    clip_fraction        | 0.4         |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.12       |
+|    explained_variance   | 0.892       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.818       |
+|    n_updates            | 3030        |
+|    policy_gradient_loss | 0.017       |
+|    std                  | 0.706       |
+|    value_loss           | 8.04        |
+-----------------------------------------
+Track generation: 1139..1428 -> 289-tiles track
+Track generation: 1172..1469 -> 297-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 309         |
+| time/                   |             |
+|    fps                  | 24          |
+|    iterations           | 5           |
+|    time_elapsed         | 410         |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.058581192 |
+|    clip_fraction        | 0.412       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.12       |
+|    explained_variance   | 0.933       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.583       |
+|    n_updates            | 3040        |
+|    policy_gradient_loss | 0.00151     |
+|    std                  | 0.709       |
+|    value_loss           | 5.79        |
+-----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1026..1289 -> 263-tiles track
+retry to generate track (normal if there are not manyinstances of this message)
+Track generation: 1088..1370 -> 282-tiles track
+Track generation: 1267..1588 -> 321-tiles track
+Track generation: 992..1248 -> 256-tiles track
+Track generation: 1170..1467 -> 297-tiles track
+Track generation: 1102..1386 -> 284-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 300         |
+| time/                   |             |
+|    fps                  | 61          |
+|    iterations           | 1           |
+|    time_elapsed         | 33          |
+|    total_timesteps      | 2048        |
+| train/                  |             |
+|    approx_kl            | 0.054086655 |
+|    clip_fraction        | 0.337       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.12       |
+|    explained_variance   | 0.982       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.164       |
+|    n_updates            | 3050        |
+|    policy_gradient_loss | -0.00704    |
+|    std                  | 0.703       |
+|    value_loss           | 1.64        |
+-----------------------------------------
+Track generation: 1034..1297 -> 263-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 211         |
+| time/                   |             |
+|    fps                  | 34          |
+|    iterations           | 2           |
+|    time_elapsed         | 118         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.083467185 |
+|    clip_fraction        | 0.485       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.1        |
+|    explained_variance   | 0.945       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.881       |
+|    n_updates            | 3060        |
+|    policy_gradient_loss | 0.0148      |
+|    std                  | 0.702       |
+|    value_loss           | 9.17        |
+-----------------------------------------
+Track generation: 1252..1569 -> 317-tiles track
+Track generation: 1133..1421 -> 288-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 216         |
+| time/                   |             |
+|    fps                  | 25          |
+|    iterations           | 3           |
+|    time_elapsed         | 241         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.019151792 |
+|    clip_fraction        | 0.333       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.1        |
+|    explained_variance   | 0.836       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.758       |
+|    n_updates            | 3070        |
+|    policy_gradient_loss | -0.00292    |
+|    std                  | 0.702       |
+|    value_loss           | 3.62        |
+-----------------------------------------
+Track generation: 1008..1271 -> 263-tiles track
+Track generation: 1087..1363 -> 276-tiles track
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 228         |
+| time/                   |             |
+|    fps                  | 24          |
+|    iterations           | 4           |
+|    time_elapsed         | 333         |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.055979304 |
+|    clip_fraction        | 0.38        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.09       |
+|    explained_variance   | 0.933       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.45        |
+|    n_updates            | 3080        |
+|    policy_gradient_loss | 0.00516     |
+|    std                  | 0.698       |
+|    value_loss           | 6.21        |
+-----------------------------------------
+Track generation: 973..1231 -> 258-tiles track
+Track generation: 1202..1507 -> 305-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 940        |
+|    ep_rew_mean          | 215        |
+| time/                   |            |
+|    fps                  | 24         |
+|    iterations           | 5          |
+|    time_elapsed         | 411        |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.07091896 |
+|    clip_fraction        | 0.432      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.09      |
+|    explained_variance   | 0.946      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.64       |
+|    n_updates            | 3090       |
+|    policy_gradient_loss | 0.00829    |
+|    std                  | 0.701      |
+|    value_loss           | 5.87       |
+----------------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Track generation: 1179..1478 -> 299-tiles track
+Track generation: 1260..1579 -> 319-tiles track
+Track generation: 1160..1454 -> 294-tiles track
+Track generation: 1280..1604 -> 324-tiles track
+Track generation: 933..1177 -> 244-tiles track
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | 270        |
+| time/                   |            |
+|    fps                  | 68         |
+|    iterations           | 1          |
+|    time_elapsed         | 30         |
+|    total_timesteps      | 2048       |
+| train/                  |            |
+|    approx_kl            | 0.28390265 |
+|    clip_fraction        | 0.481      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.09      |
+|    explained_variance   | 0.905      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 0.394      |
+|    n_updates            | 3100       |
+|    policy_gradient_loss | 0.00255    |
+|    std                  | 0.697      |
+|    value_loss           | 11.5       |
+----------------------------------------
