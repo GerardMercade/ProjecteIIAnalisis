@@ -1,6 +1,6 @@
 # Escrivim el nom dels arxius que utilitzarem
 # 1r dels agents analitzats (verd)
-nom_arxiu_1 <- "agent_soufi_1000k.txt"
+nom_arxiu_1 <- "training1_Oscar.txt"
 
 # 2n dels agents analitzats (blau)
 nom_arxiu_2 <- "training1_v2_Oscar.txt"
@@ -34,14 +34,21 @@ plotData <- data.frame(1:length(raw_rewards)*as.numeric(str_extract(
   raw_timesteps, "[[:digit:]]+.+[[:digit:]]"))[1])
 
 # Extreiem els rewards
-plotData[,2]<- as.numeric(str_extract(raw_rewards, "[[:digit:]]+.+[[:digit:]]|-+[[:digit:]]+.+[[:digit:]]|[[:digit:]]|-+[[:digit:]]"))
+plotData[,2]<- as.numeric(str_extract(raw_rewards, "[[:digit:]]+.+
+                                      [[:digit:]]|-+[[:digit:]]+.+
+                                      [[:digit:]]|[[:digit:]]|-+
+                                      [[:digit:]]"))
 
 # El mateix pero amb el loss
 # El primer valor es NA, perque no te amb que comparar
 raw_loss <- data[str_detect(data[,1], " loss "),]
 
 # Igual que abans xtreiem els loss
-plotData[,3]<- c(NA,as.numeric(str_extract(raw_loss, "[[:digit:]]+.+[[:digit:]]|-+[[:digit:]]+.+[[:digit:]]|[[:digit:]]|-+[[:digit:]]")),
+plotData[,3]<- c(NA,as.numeric(str_extract(raw_loss, "[[:digit:]]+.+
+                                           [[:digit:]]|-+
+                                           [[:digit:]]+.+
+                                           [[:digit:]]|[[:digit:]]|-+
+                                           [[:digit:]]")),
                  rep(NA, nrow(plotData)-length(raw_loss)-1))
 
 # Reanomenem les columnes del data frame
@@ -106,7 +113,10 @@ plotData <- data.frame(1:length(raw_rewards)*as.numeric(
   str_extract(raw_timesteps, "[[:digit:]]+.+[[:digit:]]"))[1])
 
 # Extreiem els rewards
-plotData[,2]<- as.numeric(str_extract(raw_rewards, "[[:digit:]]+.+[[:digit:]]|-+[[:digit:]]+.+[[:digit:]]|[[:digit:]]|-+[[:digit:]]"))
+plotData[,2]<- as.numeric(str_extract(raw_rewards, "[[:digit:]]+.+
+                                      [[:digit:]]|-+[[:digit:]]+.+
+                                      [[:digit:]]|[[:digit:]]|-+
+                                      [[:digit:]]"))
 
 # Reanomenem les columnes del Data Frame
 names(plotData) <- c("Posicio","Rewards")
@@ -156,7 +166,7 @@ names(ambMitjanes1) <- c("Nou", "noms", "Atenea")
 
 
 # Creem el gràfic comparatiu
-ComparativaPlot<- ggplot(ambMitjanes1,aes(x=noms)) + # Indiquem les dades utilitzades
+ComparativaPlot<- ggplot(ambMitjanes1,aes(x=noms)) + 
   
   # Linia del codi que hem creat nosaltres
   geom_line(aes(y=Nou),color = "darkgreen") +
@@ -183,6 +193,7 @@ ggsave(filename = paste("Grafics/LossPlot_",nom_arxiu_1,".pdf"),
        plot = LossPlot, device = "pdf", 
        width = 8.27, height = 4.5, units = c("in"))
 
-ggsave(filename = paste("Grafics/Comparative_",nom_arxiu_1,"(verd)_vs_",nom_arxiu_2,"(blau).pdf"), 
+ggsave(filename = paste("Grafics/Comparative_",nom_arxiu_1,
+                        "(verd)_vs_",nom_arxiu_2,"(blau).pdf"), 
        plot = ComparativaPlot, device = "pdf", 
        width = 8.27, height = 4.5, units = c("in"))
