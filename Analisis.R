@@ -1,6 +1,6 @@
 # Escrivim el nom dels arxius que utilitzarem
 # 1r dels agents analitzats (verd)
-nom_arxiu_1 <- "training1_Oscar.txt"
+nom_arxiu_1 <- "agent_soufi_1000k.txt"
 
 # 2n dels agents analitzats (blau)
 nom_arxiu_2 <- "training1_v2_Oscar.txt"
@@ -168,7 +168,7 @@ ComparativaPlot<- ggplot(ambMitjanes1,aes(x=noms)) + # Indiquem les dades utilit
   labs(x = "Steps", y = "Reward") 
 
 # Mostrem els grafics
-if (FALSE){
+if (TRUE){
   print(RewardPlot)
   print(LossPlot)
   print(ComparativaPlot)
